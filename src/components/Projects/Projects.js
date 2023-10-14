@@ -28,7 +28,7 @@ function Projects() {
               title="Portfolio"
               description="Developed a responsive portfolio site using React.js, showcasing skills and projects. Ensured optimal user experience across devices.Demonstrated proficiency in React.js for creating interactive, data-driven web applications."
               ghLink="https://github.com/Raju6302/portfolio"
-              // demoLink="https://editor.soumya-jit.tech/"              
+                         
             />
           </Col>
 
