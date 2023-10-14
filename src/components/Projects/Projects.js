@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
+import portfolio from "../../Assets/Projects/portfolio.png"
 import editor from "../../Assets/Projects/codeEditor.png";
 import calculator from "../../Assets/Projects/calculator.png"
 import rock from "../../Assets/Projects/R-P-S.png"
@@ -21,6 +21,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Portfolio"
+              description="Developed a responsive portfolio site using React.js, showcasing skills and projects. Ensured optimal user experience across devices.Demonstrated proficiency in React.js for creating interactive, data-driven web applications."
+              ghLink="https://github.com/Raju6302/portfolio"
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
 
 
         <Col md={4} className="project-card">
@@ -51,17 +62,6 @@ function Projects() {
               description="Our Rock, Paper, Scissors game is a classic and interactive web-based challenge. Test your decision-making skills as you face off against the computer in this timeless game of strategy and luck."
               ghLink="https://github.com/Raju6302/Rock-Paper-Scissor"
              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
