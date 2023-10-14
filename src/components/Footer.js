@@ -7,7 +7,7 @@ import {
   AiFillLinkedin,
   AiFillYoutube
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+
 
 function Footer() {
   let date = new Date();
