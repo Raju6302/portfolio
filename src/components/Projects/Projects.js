@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import portfolio from "../../Assets/Projects/portfolio.png"
-import editor from "../../Assets/Projects/codeEditor.png";
 import calculator from "../../Assets/Projects/calculator.png"
 import rock from "../../Assets/Projects/R-P-S.png"
 import todo from "../../Assets/Projects/todo-list.png"
