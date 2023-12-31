@@ -4,12 +4,11 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiMongodb,
-  DiPython,
   DiGit,
   DiCss3,
   DiJava,
   DiHtml5,
+  DiReactnative,
   DiBootstrap
 } from "react-icons/di";
 
@@ -35,11 +34,11 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiReactnative />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiJava />
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
@@ -50,9 +49,6 @@ function Techstack() {
         <DiBootstrap />
       </Col>
      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
       
     </Row>
   );
