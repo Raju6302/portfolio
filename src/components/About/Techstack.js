@@ -8,7 +8,6 @@ import {
   DiCss3,
   DiJava,
   DiHtml5,
-  DiReactnative,
   DiBootstrap
 } from "react-icons/di";
 
@@ -31,10 +30,6 @@ function Techstack() {
      
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReactnative />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
