@@ -6,7 +6,9 @@ import portfolio from "../../Assets/Projects/portfolio.png"
 import calculator from "../../Assets/Projects/calculator.png"
 import rock from "../../Assets/Projects/R-P-S.png"
 import todo from "../../Assets/Projects/todo-list.png"
-import shippingCharges from "../../Assets/projects/shipping-charges.png"
+import shippingCharges from "../../Assets/Projects/shippingCharges.png"
+
+
 
 
 function Projects() {
@@ -37,7 +39,7 @@ function Projects() {
             <ProjectCard
               imgPath={shippingCharges}
               isBlog={false}
-              title="Shipping-Charges"
+              title="shippingCharges"
               description="Developed a full-stack project utilizing React for frontend, Spring Boot for backend, and MySQL for database management. Implemented a form allowing users to input name, mobile number, email, origin city, destination city, and weight, with city values dynamically fetched from the database. Enhanced user experience by displaying calculated total based on destination city value and user-provided weight upon form submission, while ensuring seamless data storage in the database."
               ghLink="https://github.com/Raju6302/shipping-charges"
                          
