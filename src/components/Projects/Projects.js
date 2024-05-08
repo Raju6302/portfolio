@@ -7,6 +7,9 @@ import calculator from "../../Assets/Projects/calculator.png"
 import rock from "../../Assets/Projects/R-P-S.png"
 import todo from "../../Assets/Projects/todo-list.png"
 import shippingCharges from "../../Assets/Projects/shippingCharges.png"
+import mui_img from '../../Assets/Projects/mui.png'
+import Nike_landing from "../../Assets/Projects/Nike-landing-page.png"
+import ochi_page from "../../Assets/Projects/cohi-page.png"
 
 
 
@@ -31,6 +34,39 @@ function Projects() {
               title="Portfolio"
               description="Developed a responsive portfolio site using React.js, showcasing skills and projects. Ensured optimal user experience across devices.Demonstrated proficiency in React.js for creating interactive, data-driven web applications."
               ghLink="https://github.com/Raju6302/portfolio"
+                         
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mui_img}
+              isBlog={false}
+              title="Messanger-website"
+              description="This website is similar to facebook where we can post our photos and videos and we can chat with the people. Fully responsive for all devices"
+              ghLink="https://github.com/Raju6302/mui"
+                         
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Nike_landing}
+              isBlog={false}
+              title="Nike landing page"
+              description=" This is Nike landing page you can view all the products and add products to the cart. Fully responsive for all devices."
+              ghLink="https://github.com/Raju6302/Nike-landing-page"
+                         
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ochi_page}
+              isBlog={false}
+              title="Ochi-presentations"
+              description=""
+              ghLink="https://github.com/Raju6302/Nike-landing-page"
                          
             />
           </Col>
